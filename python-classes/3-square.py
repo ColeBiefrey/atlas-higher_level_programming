@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Square Area
+"""
+
 class Square:
     """ 
     A class that defines a square by its size

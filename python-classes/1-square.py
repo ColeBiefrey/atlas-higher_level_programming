@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Create square definition
+"""
+
 class Square:
     """
     Class Square that defines a square object
@@ -11,4 +15,5 @@ class Square:
             param1 (int): size of the square
         """
         self.__size = size
+
 
