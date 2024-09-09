@@ -5,7 +5,7 @@ Define square size
 
 
 class Square:
-    """ 
+    """
     A class that defines a square by its size
     """
     def __init__(self, size=0):
