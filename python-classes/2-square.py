@@ -3,6 +3,7 @@
 Define square size
 """
 
+
 class Square:
     """ 
     A class that defines a square by its size
