@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+base definition
+"""
+
+
 class BaseGeometry:
     """
     Empty class
