@@ -3,6 +3,7 @@
 Script for printing a sorted list of class
 """
 
+
 class MyList(list):
     """
     Class that inherits the attributes references of class list
@@ -11,7 +12,7 @@ class MyList(list):
     list: class list
 
     """
-    
+
     def print_sorted(self):
         """
         Method that prints the sorted list

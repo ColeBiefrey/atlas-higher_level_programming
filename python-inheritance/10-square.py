@@ -9,6 +9,7 @@ Rectangle = __import__('9-rectangle').Rectangle
 rectangle import and start
 """
 
+
 class Square(Rectangle):
     """
     Class that defines a Square from Rectangle class
