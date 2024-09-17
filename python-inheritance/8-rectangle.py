@@ -2,8 +2,11 @@
 """
 addition to basic geometry tele
 """
-BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
+"""
+Geometry import set
+"""
 
 class Rectangle(BaseGeometry):
     """

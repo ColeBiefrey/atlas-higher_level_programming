@@ -2,8 +2,11 @@
 """
 further exempferication on rectangle geometry
 """
-BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
+"""
+geometry traceback
+"""
 
 class Rectangle(BaseGeometry):
     """

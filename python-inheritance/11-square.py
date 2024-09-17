@@ -2,8 +2,11 @@
 """
 further compartmentalizing of square data
 """
-Rectangle = __import__('9-rectangle').Rectangle
 
+Rectangle = __import__('9-rectangle').Rectangle
+"""
+rectangle callback
+"""
 
 class Square(Rectangle):
     """
