@@ -1,0 +1,1 @@
+## These questions are to help me gather the knowledge I need to further understand classes and python subtext
