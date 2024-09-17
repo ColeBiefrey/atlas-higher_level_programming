@@ -20,7 +20,7 @@ class BaseGeometry:
         """
         Method that recieves the value property
 
-        Árgs:
+        ï¿½rgs:
             name: name of the object
             value: value of the property
 
