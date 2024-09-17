@@ -3,6 +3,7 @@
 interpolation of previous work for squares
 """
 
+
 Rectangle = __import__('9-rectangle').Rectangle
 """
 rectangle import and start
