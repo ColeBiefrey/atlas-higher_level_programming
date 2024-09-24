@@ -132,7 +132,7 @@ class Rectangle(Base):
             for key, value in kwargs.items():
                 setattr(self, key, value)
 
-        def to_dictionary(self):
+    def to_dictionary(self):
         """
         method that returs a dictionary with properties
         """
