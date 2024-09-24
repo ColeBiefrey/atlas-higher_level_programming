@@ -16,3 +16,18 @@ class Square(Rectangle):
         Initializes instances
         """
         super().__init__(size, size, x, y, id)
+
+    @property
+    def size(self):
+        """
+        Getter size
+        """
+        return self.width
+
+    @size.setter
+    def size(self, value):
+        """
+        Setter size
+        """
+        self.width = value
+        self.height = value
