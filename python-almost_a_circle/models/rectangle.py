@@ -119,3 +119,15 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("y must be >= 0")
         self.__y = value
+
+    def update(self, *args, **kwargs):
+        """
+        update method
+        """
+        if args is not None and len(args) is not 0:
+            list_atr = ['id', 'width', 'height', 'x', 'y']
+            for i in range(len(args)):
+                setattr(self, list_atr[i], args[i])
+        else:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
