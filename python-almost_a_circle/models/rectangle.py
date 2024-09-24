@@ -63,7 +63,7 @@ class Rectangle(Base):
         """
         return self.width * self.height
 
-     def display(self):
+    def display(self):
         """
         displays a rectangle
         """
@@ -74,7 +74,7 @@ class Rectangle(Base):
 
         print(rectangle, end='')
 
-     def __str__(self):
+    def __str__(self):
         """
         str special method
         """
@@ -84,4 +84,38 @@ class Rectangle(Base):
         str_wh = "{}/{}".format(self.width, self.height)
 
         return str_rectangle + str_id + str_xy + str_wh
+        @property
+    def x(self):
+        """
+        x getter
+        """
+        return self.__x
 
+    @x.setter
+    def x(self, value):
+        """
+        x setter
+        """
+        if type(value) is not int:
+            raise TypeError("x must be an integer")
+        if value < 0:
+            raise ValueError("x must be >= 0")
+        self.__x = value
+
+    @property
+    def y(self):
+        """
+        y getter
+        """
+        return self.__y
+
+    @y.setter
+    def y(self, value):
+        """
+        y setter
+        """
+        if type(value) is not int:
+            raise TypeError("y must be an integer")
+        if value < 0:
+            raise ValueError("y must be >= 0")
+        self.__y = value
