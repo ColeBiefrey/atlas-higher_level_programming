@@ -1,0 +1,1 @@
+## These files are to help me understand the basics of SQL and how to implement it
