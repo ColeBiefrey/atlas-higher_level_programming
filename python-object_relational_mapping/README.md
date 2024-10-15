@@ -1,0 +1,1 @@
+## These files are to help me understand relational mapping involving python and substructures into other parsed languages
