@@ -1,0 +1,1 @@
+## These files are to help expand my understanding of JS objects and how to manipulate them
