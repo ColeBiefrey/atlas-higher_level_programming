@@ -1,0 +1,1 @@
+## These files are to help me understand deeper concepts in SQL and had to interpolate them in future projects
